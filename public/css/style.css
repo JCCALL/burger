@@ -1,0 +1,62 @@
+body {
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+h1 {
+    font-size: 5vmin;
+}
+
+h2 {
+    font-size: 4.5vmin;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 3.5vmin;
+}
+
+.yum{
+    color: #D7DBDD;
+}
+
+#eaten {
+    position: absolute;
+    top: 10vh;
+    right: 1vw;
+    width: 30vw;
+}
+
+#noteaten {
+    position: absolute;
+    top: 10vh;
+    left: 1vw;
+    width: 30vw;
+}
+
+#form{
+    left: 35vw;
+    position: absolute;
+    top: 74vh;
+    width: 30vw;
+}
+
+img{
+    position: absolute;
+    left: 31vw;
+    top: 10vh;
+    z-index: -1;
+}
+
+button {
+    background-color: crimson;
+    width: 100px;
+    margin: 5px 0px;
+
+}
+
+.button {
+    background-color: green;
+}
